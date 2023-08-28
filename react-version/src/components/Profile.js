@@ -3,12 +3,12 @@ import React from 'react';
 const Profile = () => {
   return (
     <aside>
-      <div class="profile">
-        <img class="profile__image" src="./profile-hex.png" alt="profile"/>
+      <div className="profile">
+        <img className="profile__image" src="./profile-hex.png" alt="profile"/>
       </div>
       <br />
-      <div class="profile__name">
-        <h2><span class="profile--bold">Amy</span> Mansell</h2>
+      <div className="profile__name">
+        <h2><span className="profile--bold">Amy</span> Mansell</h2>
       </div>
     </aside>
   );
